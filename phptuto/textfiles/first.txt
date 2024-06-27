@@ -1,0 +1,95 @@
+<?php
+// echo "<pre>";
+// print_r($_GET);
+// exit;
+// if(isset($_POST['submit'])){
+//     if(empty($_POST['username'])){
+//         echo "username empty";
+//     }
+//     elseif(empty($_POST['password'])){
+//         echo "password empty";
+//     }
+//     else{
+//         echo "not empty";
+//     }
+//     // echo $_GET["username"] . "<br>";
+//     // echo $_GET["password"] . "<br>";
+// }
+
+
+
+// if(isset($_POST['submit'])){
+//     $course=null;
+//     if(isset($_POST['course'])){
+//         $course =$_POST['course'];
+//     }
+//     if($course=='BCA')
+//         echo "you selected" .$course;
+//     elseif($course=='MCA')
+//     echo "you selected" .$course;
+//     elseif($course=='BTECH')
+//     echo "you selected" .$course;
+//     else
+//     echo "you selected nothing";
+// }
+
+// if(isset($_POST['submit'])){
+//     $course =$_POST['course'];
+//     foreach ($course as $cour){
+//         echo "you selected course: " .$cour . "<br>";
+//     }
+// }
+
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanvi</title>
+</head>
+<body>
+
+<!-- username passowrds -->
+    <!-- <form action="first.php" method="post">
+        <div>
+            <label>username</label>
+            <input type="text" name="username">
+        </div>
+
+        <br>
+        <div>
+            <label>password</label>
+            <input type="password" name="password">
+        </div>
+        <br>
+        <div>
+            <button type="submit" name="submit">log in</button>
+        </div>
+    </form> -->
+
+
+    <!-- radio buttons -->
+<!-- <form action="first.php" method="post">
+    <label>select any one</label> <br>
+    <input type="radio" value="BCA" name="course">BCA <br>
+    <input type="radio" value="MCA" name="course">MCA <br>
+    <input type="radio" value="BTECH" name="course">BTECH <br>
+    <input type="submit" name="submit" value="confirm"> <br>
+</form> -->
+
+<!-- check boxes -->
+<!-- <form action="first.php" method="post">
+    <label>select any one</label> <br>
+    <input type="checkbox" value="BCA" name="course[]">BCA <br>
+    <input type="checkbox" value="MCA" name="course[]">MCA <br>
+    <input type="checkbox" value="BTECH" name="course[]">BTECH <br>
+    <input type="submit" name="submit" value="confirm[]"> <br>
+</form>  -->
+
+
+</body>
+</html>

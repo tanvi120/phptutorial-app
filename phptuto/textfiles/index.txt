@@ -1,0 +1,144 @@
+<?php
+
+// variables
+// $name ="tanvi";
+// $age =21;
+// $marks=91.22;
+// $married=true;
+// echo "my name is ".$name;
+// echo "<br>my age is ".$age;
+// echo "<br>my marks are $marks %";
+// echo "<br>my marriage is {$married}";
+// echo "<br> <br>";
+
+
+// to check the type n print
+// var_dump($name);
+// var_dump($age);
+// var_dump($marks);
+// var_dump($married);
+
+
+// operators
+// $a=20;
+// $b=90;
+// $c=$a-$b;
+// echo $a ."+" .$b ."=" .$c;
+
+
+// increment and decrement
+// $a=10;
+// $b=$a--;
+// $c=$a;
+// echo $a ."<br>";
+// echo $b ."<br>";
+// echo $c ."<br>";
+
+
+// string functions
+// $name="tanvi";
+// echo strlen($name);
+// echo str_replace("t","a",$name); //case sensitive
+// echo str_ireplace("T","A",$name);
+// echo ucwords($name);
+// echo strtoupper($name);
+
+
+// to check the type is correct or not
+// $num="90.9";
+// var_dump(is_int($num));
+// var_dump(is_numeric($num));
+// var_dump(is_integer($num)); 
+
+
+//functions like sqrt, round,pi,rand
+// echo pi();
+// echo rand(1,20);
+// echo rand();
+
+
+// if else 
+// $age=70;
+// if ($age>7032){
+//     echo"yooo";
+// }
+// elseif($age>67 || $age<89){
+//     echo"twooo";   //|| -> or , && -> and , ! -> not
+// }
+// else{
+//     echo"yhhhooo";
+// }
+
+
+//for loop
+// for($i=0; $i<5; $i+=8){
+//     echo "$i <br>";
+//     echo $i."<br>";
+// }
+
+
+//while loop
+// $i=1;
+// while($i<=100){
+//     echo $i ."<br>";
+//     $i++;
+// } 
+
+
+// arrays
+// $fruits =array("apple","abc","pqr","fcts");
+
+// array_push($fruits,"tanvi","anuapm");
+// array_pop($fruits);
+// array_shift($fruits);
+// $new_array=array_reverse($fruits);
+// echo count($fruits);
+// foreach ($new_array as $key) {
+//     echo $key ."<br>";
+    
+// }
+
+
+// associative array
+// $newarray=array("soni"=>"abc",
+//  "prema"=>"pqr",
+//  "saksh"=>"xyz");
+// $keys=array_keys($newarray);
+// echo "<pre>";
+// print_r($newarray);
+// // it is used when indexes are strings
+
+
+// foreach($newarray as $key =>$values){
+//     echo"<p>$key: $va lue</p>";
+// }
+
+
+//multidimensional arrays
+// $abc=array(
+//     array("one"=>"tanvi","two"=>"anupam"),
+//     array("onee"=>"teeanvi","tweo"=>"anupaem")
+// );
+// foreach ($abc as $key => $value) {
+//     // echo "<pre>";
+//     // print_r($value);
+//     foreach ($value as $k => $v) {
+//         echo ($k) .":".($v);
+//     }
+// }
+
+
+// functions
+// function myfun($a,$b) {
+//     echo $a+$b;
+// }
+// myfun(2,4);
+
+
+// isset
+// $a="tanvi";
+// echo isset($a);  //returns true if varibale is declared and not null
+
+// echo empty($a);  //returns true if variable not declared, null and false
+?>
+
